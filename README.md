@@ -1,14 +1,14 @@
 # GS16 - post collection on VK.com
 ## How to use:
 
-1. Download The Repo [GS16_compiled](https://github.com/Eik-S/GS16_compiled)
-2. Unfortunately git Stores no Access Rights, so they have to be changed to allow writing
+1. Download the repo [GS16_compiled](https://github.com/Eik-S/GS16_compiled)
+2. Unfortunately git stores no access-rights, so they have to be changed to allow writing
 ```
 In Unix Shell:
 sudo chmod -R 777 <path-to>/GS16_compiled/
 changes the access rights to read/write/execute for every user
 ```
-3. Execute GS16.jar in terminal using the following Arguments:
+3. Execute 'GS16.jar' in terminal using the following Arguments:
   - wallGet: Get all Posts from the groups/persons wall set in 'vk_id_list.txt'
   - wallSearch: Search for All Keywords from 'vk_keyword_list.txt' in all groups/persons set in 'vk_id_list.txt'
   - createGroupInfo: Create a Table with Domain, Name and Url information to every id in 'vk_id_list.txt'
