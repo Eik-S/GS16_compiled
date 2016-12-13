@@ -7,8 +7,8 @@
   - In Unix Shell:
     ```
     sudo chmod -R 777 <path-to>/GS16_compiled/
-    changes the access rights to read/write/execute for every user
     ```
+    changes the access rights to read/write/execute for every user
 3. Execute 'GS16.jar' in terminal using the following Arguments:
   - updateData: Get all Posts from the groups/persons wall set in 'vk_id_list.txt' or update the already collected data for new posts 
     - The data will be saved in the data Folder, containing also a 'groupInfo.json' :exclamation: dont touch :exclamation:
