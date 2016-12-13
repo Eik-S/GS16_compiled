@@ -17,6 +17,8 @@
   - createGroupInfo: Create a Table with Domain, Name and Url information to every id in 'vk_id_list.txt'
   - findIds: Add the ids of the groups in 'vk_domain_list.txt' to 'vk_id_list.txt'
     - the domain list must contain the name part of the groups url if the groups url is not defined by its id, if the url e.g. is 'vk.com/group/patrioten', the list should contain 'patrioten'
+4. The updateData argument is made for automated execution e.g. via 'crontab', but please keep the "only one execution on initial day" hint in mind!
+
   
 ### Examples:
 ```
